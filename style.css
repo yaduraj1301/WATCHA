@@ -1,0 +1,50 @@
+body{
+    background-color: #121212;
+}
+/* *{
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+} */
+.logo{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.header{
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    float:left;
+    /* width: 63px; */
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#htext{
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.login{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+.img1{
+    padding: 50px;
+}
+.img2{
+    padding:50px;
+}
+#book{
+    padding-right: 20px;
+}
